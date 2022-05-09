@@ -1,0 +1,80 @@
+.BoxContainer {
+    margin: 0 0 0 0 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.navbar {
+    width: 100%;
+    height: 6vh;
+    background: #c4c4c4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.none {
+    display: none;
+}
+
+.zoomBtn {
+    background: #afafaf;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 83%;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 1.5%;
+    cursor: pointer;
+}
+
+img {
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.refresh {
+    margin-right: 3%;
+}
+
+.zoomBtn:hover {
+    background: #a1a1a1;
+}
+
+a {
+    font-weight: 600;
+    font-size: 19px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.as {
+    margin-right: -80%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.group {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-left: 110%;
+}
